@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+/* Barra superior */
+.barra-superior {
+  background-color: #000;
+  color: #fff;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px;
+  font-size: 8px;
+}
+
+.barra-superior img {
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+}
+
+/* Cabeçalho e menu */
+.cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  padding: 0 14px;
+  background-color: #252728;
+  height: 60px;
+}
+
+.logo img {
+  display: block;
+  width: 104px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 16px 20px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Banner principal */
+.banner {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.banner-imagem {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-width: 0;
+}
+
+/* Botões das setas */
+.banner button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.banner button img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.seta-esquerda {
+  left: 20px;
+}
+
+.seta-direita {
+  right: 20px;
+}
