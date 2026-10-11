@@ -105,3 +105,83 @@ body {
 .seta-direita {
   right: 20px;
 }
+/* NEV E BENEFÍCIOS */
+
+.historia {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 25px 18px;
+  background: #fff;
+  color: #111;
+}
+
+.nev-introducao {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.nev-introducao h2 {
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+
+.nev-introducao h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.nev-introducao p {
+  font-size: 10px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.beneficio {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 12px 0;
+}
+
+.beneficio-texto {
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+  transform: none;
+}
+
+.beneficio-texto h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.beneficio-texto p {
+  width: 100%;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #000;
+}
+
+.beneficio img {
+  width: calc(50% - 12px);
+  height: auto;
+  aspect-ratio: 650 / 300.364;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.beneficio-invertido {
+  flex-direction: row-reverse;
+}
+
+.beneficio-invertido {
+  flex-direction: row-reverse;
+}
