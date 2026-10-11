@@ -185,3 +185,83 @@ body {
 .beneficio-invertido {
   flex-direction: row-reverse;
 }
+
+/* OFERTAS BYD */
+.modelos {
+  width: 100%;
+  background-color: #b9d5df;
+  padding-bottom: 12px;
+}
+
+.banner-ofertas {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.banner-ofertas img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.banner-ofertas h2 {
+  position: absolute;
+  top: 4px;
+  left: 32px;
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+}
+
+.lista-modelos {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 4.7%;
+}
+
+.card-modelo {
+  flex: 1;
+  min-width: 0;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-modelo > img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.5 / 1;
+  object-fit: contain;
+  background-color: #ccc;
+  border-radius: 8px;
+}
+
+.card-modelo h3 {
+  font-size: 10px;
+  line-height: 1.3;
+}
+
+.card-modelo p {
+  font-size: 8px;
+  line-height: 1.3;
+}
+
+.card-modelo button {
+  align-self: center;
+  margin-top: auto;
+  padding: 4px 8px;
+  background-color: #fff;
+  border: 1px solid #1683b5;
+  font-size: 7px;
+  font-weight: 600;
+  cursor: pointer;
+}
